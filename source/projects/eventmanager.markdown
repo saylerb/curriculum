@@ -138,7 +138,8 @@ The first few rows of the CSV file you downloaded look like this:
 you to perform a large number of operations on files on your filesystem. The
 most straightforward being `File.read`
 
-```ruby lib/event_manager.rb
+```
+ruby lib/event_manager.rb
 puts "EventManager initialized."
 
 contents = File.read "event_attendees.csv"
